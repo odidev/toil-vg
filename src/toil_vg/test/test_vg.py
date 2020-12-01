@@ -835,6 +835,7 @@ class VGCGLTest(TestCase):
         self._test_03_sim_small_mapeval_plots('Singularity')
         
     def _run(self, args):
+        echo $args
         log.info('Running %r', args)
         subprocess.check_call(args)
 

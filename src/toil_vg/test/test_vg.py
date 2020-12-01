@@ -837,7 +837,7 @@ class VGCGLTest(TestCase):
     def _run(self, args):
         log.info('Running %r', args)
         subprocess.check_call(args)
-        print ('args')
+        print ("args =",'args')
 
     def _assertOutput(self, sample_name, outstore, f1_threshold=0.90):
 
